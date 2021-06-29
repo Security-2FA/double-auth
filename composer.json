@@ -1,0 +1,22 @@
+{
+    "name": "michal/2fa_lib",
+    "description": "Allows to easily and safe double authentication",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Michal Szczurowski",
+            "email": "bohema.michal@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.2.5"
+    },
+    "autoload": {
+        "psr-4": { "Double\\Authentication\\Component\\": "" },
+        "exclude-from-classmap": [
+            "/Tests/"
+        ]
+    },
+    "minimum-stability": "dev"
+}
