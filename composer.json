@@ -3,6 +3,7 @@
     "description": "Allows to easily and safe double authentication",
     "license": "MIT",
     "type": "library",
+    "minimum-stability": "dev",
     "authors": [
         {
             "name": "Michal Szczurowski",
@@ -18,5 +19,4 @@
             "/Tests/"
         ]
     },
-    "minimum-stability": "dev"
 }
