@@ -1,0 +1,4 @@
+conf:
+  smsConfiguration: '%env(resolve:DATABASE_URL)%'
+  emailConfiguration: '%env(resolve:DATABASE_URL)%'
+  redisConfiguration: '%env(resolve:DATABASE_URL)%'
